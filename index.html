@@ -10,23 +10,39 @@
     <title>Dioxus Web Template</title>
 </head>
 <body>
-<div class="main">
+<div class="main home">
     <div class="header">
         <a href="./index.html" class="title">Conduit</a>
         <div class="nav">
-            <a href="./index.html" class="item">Home</a>
-            <a href="./login.html" class="item active">Sign in</a>
+            <a href="./index.html" class="item active">Home</a>
+            <a href="./login.html" class="item">Sign in</a>
             <a href="./register.html" class="item">Sign up</a>
         </div>
     </div>
+    <div class="header_description">
+        <div class="title">Conduit</div>
+        <div class="description">A place to share your knowledge</div>
+    </div>
     <div class="body">
-        <h2 class="item title">Sign In</h2>
-        <a class="item register" href="./register.html">Need An Account ?</a>
-        <form class="item form" method="post" action="#" name="form">
-            <input type="email" class="input email" name="email" placeholder="Email">
-            <input type="password" class="input password" name="password" placeholder="Password">
-            <input type="submit" class="input submit" name="submit" value="Sign in">
-        </form>
+        <div class="feeds">
+            <div class="nav">
+                <div class="item first">YOUR FEED</div>
+                <div class="item second active">GLOBAL FEED</div>
+                <div class="item third">ANOTHER SEARCH</div>
+            </div>
+            <div class="content second">
+                <div class="item_ first">ALL YOUR FEEDS</div>
+                <div class="item_ second">ALL GLOBAL FEEDS</div>
+                <div class="item_ third">ALL ANOTHER SEARCH</div>
+            </div>
+        </div>
+        <div class="aside">
+            <div class="title">Popular Tags</div>
+            <a href="#" class="tag">welcome</a>
+            <a href="#" class="tag">implementations</a>
+            <a href="#" class="tag">codebaseShow</a>
+            <a href="#" class="tag">introduction</a>
+        </div>
     </div>
     <a class="footer" href="#">
         <span class="logo"><i class="fab fa-github"></i> </span>
