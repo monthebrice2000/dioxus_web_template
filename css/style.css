@@ -133,6 +133,9 @@ body .main .footer .logo {
   flex-basis: 5%;
   height: 50%;
 }
+body .main .footer .logo > svg {
+  fill: white;
+}
 body .main .footer .title {
   height: 50%;
   /* flex-basis: 9%; */

@@ -129,6 +129,9 @@ body{
       .logo{
         flex-basis: 5%;
         height: 50%;
+        > svg{
+          fill : white;
+        }
       }
       .title{
         height: 50%;

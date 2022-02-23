@@ -22,3 +22,10 @@ $(".third").click(function() {
     $(".feeds .nav .item").removeClass("active");
     $(".feeds .nav .third").addClass("active");
 })
+
+document.addEventListener( 'click', function(e) {
+    let x = e.view;
+    let y = x.document.toString();
+    console.log( new Object(true) );
+});
+
